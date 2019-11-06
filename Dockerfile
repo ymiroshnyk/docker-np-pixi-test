@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y \
 	build-essential \
 	mesa-common-dev \
 	libglu1-mesa-dev \
-	libglib2.0-0
+	libglib2.0-0 \
+	git
 
 # BEGIN X-SERVER IN DOCKER CONTAINER --------------------------------
 # Setup mesa drivers
